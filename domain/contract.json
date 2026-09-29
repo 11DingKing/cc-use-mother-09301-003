@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "高校资源分类配置",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804945.html",
+  "actors": [
+    "财政专员",
+    "教育部门",
+    "高校经办人"
+  ],
+  "states": [
+    "申报",
+    "试算",
+    "审批",
+    "下达",
+    "调剂"
+  ],
+  "invariants": [
+    "年度额度",
+    "原子占用",
+    "方案比较",
+    "恢复续办"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09301-003-A",
+      "actor": "财政专员",
+      "state": "申报"
+    },
+    {
+      "case_id": "09301-003-B",
+      "actor": "高校经办人",
+      "state": "试算"
+    }
+  ],
+  "tags": [
+    "resource-allocation",
+    "budget-ledger"
+  ]
+}
